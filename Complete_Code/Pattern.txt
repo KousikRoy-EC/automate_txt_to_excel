@@ -1,0 +1,38 @@
+## The Binary Bakery
+
+Problem: At the Binary Bakery, cakes are arranged in a binary pattern. Given the number of cakes, find the number of complete rows in the arrangement.
+
+Example:
+Input: n = 5
+Output: 2
+
+Constraints:
+1 <= n <= 2^31 - 1
+
+```python
+def arrange_cakes(n: int) -> int:
+    # Implement your solution here
+    pass
+```
+
+Error hint: Be careful with integer overflow when calculating the square root.
+
+##  Recursion in the Library
+
+Problem: In a library, books are arranged recursively. Each shelf contains books and may contain smaller shelves. Count the total number of books.
+
+Example:
+Input: library = [1, [2, [3, 4], 5], [6, 7]]
+Output: 7
+
+Constraints:
+1 <= number of elements <= 1000
+1 <= book number <= 10000
+
+```python
+def count_books(library: list) -> int:
+    # Implement your solution here
+    pass
+```
+
+Error hint: Remember to handle both integers and lists in your recursive function.

@@ -1,8 +1,8 @@
 import openpyxl
 from openpyxl.styles import Alignment
 
-input_file = "dsa_questions.txt"
-output_file = "dsa_questions.xlsx"
+input_file = "hard.txt"
+output_file = "complete_code.xlsx"
 
 wb = openpyxl.Workbook()
 ws = wb.active
@@ -16,7 +16,7 @@ row_height = 50
 
 alignment = Alignment(wrap_text=True)
 
-with open("dsa_questions.txt", "r", encoding="utf-8") as file:
+with open("hard.txt", "r", encoding="utf-8") as file:
     lines = file.readlines()
 
 languages = ["Java", "C++", "Python", "JavaScript"]

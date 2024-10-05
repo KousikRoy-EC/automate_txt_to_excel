@@ -1,0 +1,33 @@
+## Question 1 
+Write a function to count the number of set bits (1s) in an integer.
+
+```java
+public class BitManipulation {
+    public static int countSetBits(int n) {
+        int count = 0;
+        while (n > 0) {
+            count += n & 1;
+            n >>= 1;
+        }
+        return count;
+    }
+}
+```
+
+**Error Hint:** The function doesn't handle negative numbers correctly.
+
+## Question 1 
+Implement a recursive function to calculate the nth Fibonacci number.
+
+```java
+public class Recursion {
+    public static int fibonacci(int n) {
+        if (n <= 1) {
+            return n;
+        }
+        return fibonacci(n - 1) + fibonacci(n - 2);
+    }
+}
+```
+
+**Error Hint:** The base case is incorrect, leading to a stack overflow for certain inputs.

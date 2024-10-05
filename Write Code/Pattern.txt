@@ -1,0 +1,32 @@
+1. **The Binary Castle**
+   
+   Problem: In the kingdom of Binaryland, castles are represented by 1's and empty land by 0's. The king wants to know the size of the largest castle. A castle is a group of connected 1's (horizontally or vertically).
+   
+   Example:
+   Input: 
+   ```
+   1 0 1 1
+   1 1 0 1
+   1 0 0 1
+   ```
+   Output: 4
+   
+   Constraints:
+   - 1 ≤ matrix size ≤ 1000
+   - Matrix elements are either 0 or 1
+
+   Hint: Consider using depth-first search (DFS) to explore connected components.
+
+2. **The Recursive Staircase**
+
+   Problem: Young Tim loves to climb stairs. He can climb either 1 or 2 steps at a time. Given a staircase of n steps, help Tim count how many different ways he can reach the top.
+
+   Example:
+   Input: n = 4
+   Output: 5 (1+1+1+1, 1+1+2, 1+2+1, 2+1+1, 2+2)
+
+   Constraints:
+   - 1 ≤ n ≤ 45
+
+   Hint: Think about how the solution for n steps relates to the solutions for (n-1) and (n-2) steps.
+   
